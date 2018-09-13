@@ -1,0 +1,42 @@
+body {
+  font-family: 'Trirong', serif;
+  background-color:#c5d5c5; 
+}
+
+header {
+  background-color:#fefbd8;
+  border-color: black;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 40px;
+  font: bold;
+  display: block;
+  width: 100%;
+}
+
+ul {
+  border: 2px solid black;
+  font-size: 18px;
+  line-height: 2em;
+  margin-top: 3em;
+  padding: 2px;
+}
+
+img {
+  border-radius: 8px;
+  margin: 8em auto;
+  display: block;
+}
+footer {
+  width: 100%;
+  background-color: #fefbd8;
+  border-color: black;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font: italic;
+  position: fixed;
+  bottom: 0;
+}
+
