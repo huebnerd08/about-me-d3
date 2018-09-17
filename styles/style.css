@@ -23,6 +23,14 @@ ul {
   padding: 2px;
 }
 
+ol {
+  border: 2px solid black;
+  font-size: 18px;
+  line-height: 2em;
+  margin-top: 3em;
+  padding: 2px;
+}
+
 img {
   border-radius: 8px;
   margin: 8em auto;

@@ -33,7 +33,7 @@ function functionName() {
 function functionBirth() {
   var birthQ = prompt ('Was I born in North Carolina?');
   var birthA = birthQ.toLowerCase();
-  correctAnswer = 'yes';
+  correctAnswer = 'yes' || 'y';
   if ( birthA === correctAnswer){
     console.log (logA + birthA + logB + correctAnswer);
     alert('Superb, your answer was ' + birthA + ' the correct answer is: ' + correctAnswer);
@@ -64,7 +64,7 @@ function functionBday() {
 function functionBrush() {
   var brushQ = prompt('Do I brush my teeth in the shower?');
   var brushA = brushQ.toLowerCase();
-  correctAnswer = 'no';
+  correctAnswer = 'no' || 'n';
   if ( brushA === correctAnswer){
     console.log(logA + brushA + logB + correctAnswer);
     alert('Well done, your answer was ' + brushA + ' the correct answer is: ' + correctAnswer);
@@ -80,7 +80,7 @@ function functionBrush() {
 function functionSing() {
   var singQ = prompt ('Do I like to sing karaoke?');
   var singA = singQ.toLowerCase();
-  correctAnswer = 'no';
+  correctAnswer = 'no' || 'n';
   if( singA === correctAnswer){
     console.log (logA + singA + logB + correctAnswer);
     alert ('You rock! Your answer was ' + singA + ' the correct answer is: ' + correctAnswer);
@@ -97,7 +97,7 @@ function functionSing() {
 function functionNap() {
   var napQ = prompt ('Do I like to take naps?');
   var napA = napQ.toLowerCase();
-  correctAnswer = 'yes';
+  correctAnswer = 'yes' || 'y';
   if(napA === correctAnswer){
     console.log (logA + napA + logB + correctAnswer);
     alert ('Yes!' + logA + napA + logB + correctAnswer);
@@ -108,36 +108,6 @@ function functionNap() {
     alert ('Not a chance! ' + napA + ' is incorrect');
   }
 }
-
-/*
-//Cake or pie?
-// var cakeQ = prompt ('Cake or pie?');
-// var cakeA = cakeQ.toLowerCase();
-// correctAnswer = 'pie';
-// if( cakeA === correctAnswer){
-  // console.log ('Your answer was ' + cakeA + ' the correct answer is: ' + correctAnswer);
-  // alert ('Yes! Your answer was ' + cakeA + ' the correct answer is: ' + correctAnswer);
-  // score = score + 1;
-
-// } else{
-  // console.log ('Your answer was ' + cakeA + ' the correct answer is: ' + correctAnswer);
-  // alert ('Nice try! ' + cakeA + ' is incorrect');
-// }
-
-//Do I own a segway?
-// var segQ = prompt ('Do I own a segway?');
-// var segA = segQ.toLowerCase();
-// correctAnswer = 'no';
-// if( segA === correctAnswer){
-  // console.log ('Your answer was ' + segA + ' the correct answer is: ' + correctAnswer);
-  // alert ('Yes! Your answer was ' + segA + ' the correct answer is: ' + correctAnswer);
-  // score = score + 1;
-
-// } else{
-  // console.log ('Your answer was ' + segA + ' the correct answer is: ' + correctAnswer);
-  // alert (segA + ' is incorrect');
-// }
-*/
 
 //How many countries have I visited?
 function functionVisit() {
